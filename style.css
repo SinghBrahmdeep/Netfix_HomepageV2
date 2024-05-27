@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("./images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+  z-index: 10;
+  gap: 10px;
+  height: calc(100% - 100px);
+  justify-content: center
+ 
+}
+.item1{
+  font-weight: 1000;
+  font-size: 48px;
+  text-align: center;
+}
+.item2{
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.item3{
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.partition{
+  height: 7px;
+  background-color: rgba(128, 128, 128, 0.332);
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn-red{
+  background-color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-red1{
+  background-color: red;
+  cursor: pointer;
+}
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 70vw;
+  color: white;
+  position: relative;
+  height: 70vh;
+}
+.first div{
+
+  font-size: 20px;
+}
+.secImage{
+  position: relative;
+
+}
+.secImage img{
+  width: 30vw;
+  position: relative;
+  top: 50px;
+  right: 0;
+  z-index: 10;
+}
+.secImage video{
+  position:absolute;
+  width: 26vw;
+  right: 0;
+  top: 78px;
+}
+.third > .secImage video{
+  width: 19vw;
+    left: 12vh;
+    top: 11vh;
+}
+
+.faq{
+  margin: auto;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 50px;
+}
+.faq h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+.faq-item:hover{
+  background-color: black;
+}
+.faq-item{
+  transition: all 1s ease-in;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.332);
+  padding: 20px;
+}
+.faq-bottom{
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  align-items: center;
+  gap: 10px;
+}
+.faq-bottom p{
+  color: white;
+  font-size: 20px;
+}
+
+footer{
+  color: rgba(255, 255, 255, 0.56);
+  width: 70vw;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 10vh;
+}
+footer ul{
+  list-style: none;
+}
+footer li{
+  margin-top: 1vh;
+}
+footer a{
+  color:  rgba(255, 255, 255, 0.56);
+}
+.footer div{
+  margin: 10px;
+}
+.footerlist{
+  display: flex;
+  justify-content: space-between;
+}
