@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
 
 * {
@@ -50,159 +49,332 @@ nav button {
     position: relative;
     z-index: 10;
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  position: relative;
-  z-index: 10;
-  gap: 10px;
-  height: calc(100% - 100px);
-  justify-content: center
- 
-}
-.item1{
-  font-weight: 1000;
-  font-size: 48px;
-  text-align: center;
-}
-.item2{
-  font-weight: 400;
-  font-size: 24px;
-  text-align: center;
-}
-.item3{
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-}
-.partition{
-  height: 7px;
-  background-color: rgba(128, 128, 128, 0.332);
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    gap: 10px;
+    height: calc(100% - 100px);
+    justify-content: center;
 }
 
-.btn{
-  padding: 10px;
-  border-radius: 10px;
-  background-color: transparent;
-  color: white;
-  font-weight: bolder;
-  cursor: pointer;
+.item1 {
+    font-weight: 1000;
+    font-size: 48px;
+    text-align: center;
 }
 
-.btn-red{
-  background-color: red;
-  font-size: 20px;
-  cursor: pointer;
+.item2 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
 }
 
-.btn2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+.item3 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
 }
 
-.btn-red1{
-  background-color: red;
-  cursor: pointer;
+.partition {
+    height: 7px;
+    background-color: rgba(128, 128, 128, 0.332);
 }
-.first{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  max-width: 70vw;
-  color: white;
-  position: relative;
-  height: 70vh;
-}
-.first div{
 
-  font-size: 20px;
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
 }
-.secImage{
-  position: relative;
 
+.btn-red {
+    background-color: red;
+    font-size: 20px;
+    cursor: pointer;
 }
-.secImage img{
-  width: 30vw;
-  position: relative;
-  top: 50px;
-  right: 0;
-  z-index: 10;
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
-.secImage video{
-  position:absolute;
-  width: 26vw;
-  right: 0;
-  top: 78px;
+
+.btn-red1 {
+    background-color: red;
+    cursor: pointer;
 }
-.third > .secImage video{
-  width: 19vw;
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    position: relative;
+    height: 70vh;
+}
+
+.first div {
+    font-size: 20px;
+}
+
+.secImage {
+    position: relative;
+}
+
+.secImage img {
+    width: 30vw;
+    position: relative;
+    top: 50px;
+    right: 0;
+    z-index: 10;
+}
+
+.secImage video {
+    position: absolute;
+    width: 26vw;
+    right: 0;
+    top: 78px;
+}
+
+.third > .secImage video {
+    width: 19vw;
     left: 12vh;
     top: 11vh;
 }
 
-.faq{
-  margin: auto;
-  width: 70vw;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-top: 50px;
-}
-.faq h1{
-  color: white;
-  display: flex;
-  justify-content: center;
-  font-size: 48px;
-}
-.faq-item:hover{
-  background-color: black;
-}
-.faq-item{
-  transition: all 1s ease-in;
-  color: white;
-  font-size: 24px;
-  display: flex;
-  justify-content: space-between;
-  background-color: rgba(128, 128, 128, 0.332);
-  padding: 20px;
-}
-.faq-bottom{
-  display: flex;
-  flex-direction: column;
-  margin: 10vh;
-  align-items: center;
-  gap: 10px;
-}
-.faq-bottom p{
-  color: white;
-  font-size: 20px;
+.faq {
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
 }
 
-footer{
-  color: rgba(255, 255, 255, 0.56);
-  width: 70vw;
-  margin: auto;
-  padding: 20px;
-  padding-bottom: 10vh;
+.faq h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
 }
-footer ul{
-  list-style: none;
+
+.faq-item:hover {
+    background-color: black;
 }
-footer li{
-  margin-top: 1vh;
+
+.faq-item {
+    transition: all 1s ease-in;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.332);
+    padding: 20px;
 }
-footer a{
-  color:  rgba(255, 255, 255, 0.56);
+
+.faq-bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    align-items: center;
+    gap: 10px;
 }
-.footer div{
-  margin: 10px;
+
+.faq-bottom p {
+    color: white;
+    font-size: 20px;
 }
-.footerlist{
-  display: flex;
-  justify-content: space-between;
+
+footer {
+    color: rgba(255, 255, 255, 0.56);
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 10vh;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin-top: 1vh;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.footer div {
+    margin: 10px;
+}
+
+.footerlist {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        max-width: 80vw;
+    }
+
+    .secImage img {
+        width: 40vw;
+    }
+
+    .secImage video {
+        width: 36vw;
+    }
+
+    .third > .secImage video {
+        width: 29vw;
+        top: 5vh;
+        left: 9vh;
+    }
+
+    .faq h1 {
+        font-size: 36px;
+    }
+
+    .faq-item {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    footer {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        max-width: 90vw;
+        height: auto;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .secImage img {
+        width: 50vw;
+        top: 20px;
+    }
+
+    .secImage video {
+        width: 46vw;
+        top: 28px;
+    }
+
+    .third > .secImage video {
+        width: 33vw;
+    }
+
+    .faq {
+        width: 90vw;
+    }
+
+    .faq h1 {
+        font-size: 32px;
+    }
+
+    .faq-item {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    footer {
+        width: 90vw;
+    }
+
+    .first{
+      flex-direction:  column;
+    }
+}
+
+@media(max-width : 750px){
+  .third > .secImage video {
+    width: 33vw;
+} 
+}
+
+@media (max-width: 570px) {
+  body{
+    overflow-x: hidden;
+  }
+  nav {
+      max-width: 90vw;
+      height: auto;
+  }
+
+  nav img {
+      width: 80px;
+  }
+
+  .container {
+      gap: 5px;
+  }
+
+  .item1 {
+      font-size: 36px;
+  }
+
+  .item2 {
+      font-size: 20px;
+  }
+
+  .item3 {
+      font-size: 16px;
+  }
+
+  .secImage img {
+      max-width: 50vw;
+      top: 10px;
+  }
+
+  .secImage video {
+      max-width: 50vw;
+      top: 18px;
+  }
+
+  .third > .secImage video {
+      max-width: 30vw;
+  }
+
+  .faq {
+      width: 90vw;
+  }
+
+  .faq h1 {
+      font-size: 28px;
+  }
+
+  .faq-item {
+      font-size: 16px;
+      padding: 5px;
+  }
+
+  footer {
+      width: 100vw;
+  }
+
+  .group {
+      display: flex;
+      flex-direction: column;
+  }
+
+  b {
+      font-size: 30px;
+  }
 }
